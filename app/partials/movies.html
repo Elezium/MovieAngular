@@ -1,0 +1,36 @@
+<p>This is the partial for view "MovieController". {{ where }} </p>
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Year Released
+        </th>
+        <th>
+            Category
+        </th>
+        <th>
+            Rating
+        </th>
+
+    </tr>
+
+
+    <tr ng-repeat="movie in movies">
+        <td>
+            {{movie.Name}}
+        </td>
+        <td>
+            {{movie.YearReleased}}
+        </td>
+        <td>
+            {{movie.Category}}
+        </td>
+        <td>
+            {{movie.Rating}}
+        </td>
+
+    </tr>
+    </table>
